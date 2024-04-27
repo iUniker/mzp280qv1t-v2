@@ -1,0 +1,9 @@
+dtoverlay=vc4-kms-dpi-generic
+dtparam=hactive=240,hfp=8,hsync=8,hbp=28
+dtparam=vactive=320,vfp=2,vsync=1,vbp=4
+dtparam=clock-frequency=5580000
+dtparam=hsync-invert,vsync-invert,pixclk-invert
+dtparam=rgb666-padhi
+#dtparam=bus-format=0x1022
+dtparam=rotate=270
+
